@@ -51,7 +51,7 @@ const cardGenerator = () => {
     const face = document.createElement("img");
     const back = document.createElement("div");
     card.classList = "card";
-    card.classList = "face";
+    face.classList = "face";
     back.classList = "back";
    
     //Attach image to the cards
